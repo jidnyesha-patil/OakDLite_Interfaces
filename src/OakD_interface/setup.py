@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'Image_Publisher = OakD_interface.getFrames:main',
+            'Image_Subscriber = OakD_interface.showFrames:main',
         ],
     },
 )
